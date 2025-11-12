@@ -16,7 +16,7 @@
 ## 🚀 在线演示
 
 [在线运行应用（Streamlit Cloud）](https://image-url-excel-insert.streamlit.app/)
-
+> 💡 **提示**：若首次访问时提示 *“This app has gone to sleep”*，点击 **“Yes, wake it up”** 等待约 30 秒即可恢复运行。
 > 点击链接即可体验网页端 Excel 图片处理工具
 > 在浏览器上传 Excel 文件，输入工作表名称，点击“开始处理”，等待处理完成即可下载新文件。
 
