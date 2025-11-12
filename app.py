@@ -84,10 +84,6 @@ if uploaded_file:
         </html>
         """
 
-        # 显示预览（直接在网页内显示）
-        st.markdown("### ✅ 生成结果预览")
-        st.components.v1.html(html_content, height=600, scrolling=True)
-
         # 提供下载按钮
         b64 = base64.b64encode(html_content.encode()).decode()
         href = f'<a href="data:text/html;base64,{b64}" download="output.html">📥 下载 HTML 文件</a>'
